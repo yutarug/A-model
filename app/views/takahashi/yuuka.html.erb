@@ -1,0 +1,7 @@
+<h1>テスト</h1>
+<%= form_with model: @nakamura, url:'/takahashi' do |f| %>
+  <%= f.text_field :title%>
+  <%= f.text_field :introduction%>
+  <%= f.submit %>
+<% end %>
+<%= link_to "詳細画面へ",books_path(@aaa)%>
